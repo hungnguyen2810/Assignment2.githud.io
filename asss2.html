@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <TITLE>Letter!</TITLE>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<style>
+  body {
+  background-color: #cbd9ce;
+}
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  #more {display: none;}
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 23px;
+    padding-bottom: 300px;
+    color: #fff;
+    text-align: center;
+  </style>
+
+</head>
+
+<style>
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+h2{font-family: 'Pacifico', cursive;
+font-size: 50px;
+
+}
+h3{
+  
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+</style>
+
+
+<body>
+	<style>
+   input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #bd3333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #f2f2f2;
+}
+
+
+} 
+  </style>
+<!-- code nguon readmore -->
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+ <div class="w3-bottom w3-opacity w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-hover-opacity-off">
+    <a href="#home" style="width:20%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:20%" class="w3-bar-item w3-button">About Us</a>
+    <a href="#galley" style="width:20%" class="w3-bar-item w3-button w3-hover-black">Gallery</a>
+    <a href="#Fcamp" style="width:20%" class="w3-bar-item w3-button">The Fcamp</a>
+    <a href="#rsvp" style="width:20%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+  </div>
+</div>
+<section>
+<div class="w3-padding carousel slide w3-container  w3-center" data-ride="carousel" id="home">
+ 
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="w3-round-xlarge" src="web2\1.jpg" width="1000">
+      <div class="carousel-caption center">
+        <h1>Fcamp FPT University</h1>
+        <h4>There is one thing the photograph must contain, the humanity of the moment.</h4>
+      </div>   
+    </div>
+    </div>
+  </section>
+</body>
+<br> <br>
+<section>
+  
+  <h2 style="text-align: center; " id="us">About Us</h2>
+ <br>
+<div class="w3-container w3-center " >
+  <div class="col">
+  
+      <video width="1000" controls>
+    <source src="web2\vid.mp4" type="video/mp4">
+      <br>
+    </div>
+<br> <br>
+      <div class="col" style="text-align: center;">
+        <div class="w3-content">
+      <h3>FCamp FPT University</h3>
+      <h4>A new student's holiday</h4>
+      <br>
+      <p>Facebook: <a href="https://www.facebook.com/FCampFU/photos">FCamp </a></p>
+      <p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, <span id="dots">...</span><span id="more">but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</i><br>
+</span>
+</p>
+
+
+
+      </p>
+      
+
+        <button onclick="myFunction()" id="myBtn" style="text-align: center;" type="button" class="btn btn-primary">Read more</button>
+        <br>
+        <br>
+
+      </div>
+    </div>
+  </i>
+</p>
+</div>
+      <br>
+</section>
+<section>
+  <br>
+  <h2 id="galley" style="text-align: center;">Gallery</h2>
+  
+  <br>
+  <br>
+  <div class="container">
+
+
+    <div class="row">
+
+      <div class="col">
+      <img class="w3-round-xlarge" src="web2\5.jpg" width="330" >
+     
+    </div>
+     <div class="col">
+      <img class="w3-round-xlarge" src="web2\6.jpg" width="330" >
+
+
+    </div>
+
+      <div class="col">
+      <img class="w3-round-xlarge" src="web2\7.jpg" width="330" >
+     
+ </p>
+
+      </div>
+      <br>
+      <br>
+</div>
+<br>
+<div class="row">
+
+      <div class="col">
+      <img class="w3-round-xlarge" src="web2\8.jpg" width="330" >
+
+    </div>
+     <div class="col">
+      <img class="w3-round-xlarge" src="web2\9.jpg" width="330" >
+    
+    </div>
+    <div class="col">
+      <img class="w3-round-xlarge" src="web2\10.jpg" width="330" >
+  
+    </div>
+</div>
+</div>
+</section>
+<br>
+<br>
+<section>
+<div class="w3-container  w3-center carousel slide" data-ride="carousel">
+ 
+
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img class="w3-round-xlarge" src="web2\2.jpg" >
+      <div class="carousel-caption center">
+        <h1>You Are Invited</h1>
+        <h4>Of course..</h4>
+      </div>   
+    </div>
+    </div>
+  </div>
+</section>
+ <br> <br>
+<section>
+  <h2  class="w3-center" id="Fcamp">The FCamp</h2>
+  <br>
+<div class="w3-container w3-center ">
+  <div class="col">
+  
+      <img class="w3-center w3-round-xlarge"; src="web2\3.jpg" height="600">
+  
+    </div>
+<br>
+<br>
+<div class="row">      
+  <div class="col">
+      <h4>When</h4>
+      
+      <br>
+      <p>Start: 8:00 am</p>
+  <p>End: 8:00 pm</p>
+</div>
+<div class="col">
+  <h4>Where</h4>
+      <br>
+      <p>FPT University</p>
+      <p>300m road in FPT University </p>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<br><br><br>
+
+<section>
+
+<!-- RSVP section -->
+<div class="w3-container w3-center" id="rsvp">
+  <h3>HOPE YOU CAN MAKE IT!</h3>
+  <p class="w3-large">Please respond by October, 2021 </p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
+</section>
+<!-- RSVP modal -->
+<section>
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px;">
+    <div  class="w3-container w3-white w3-center">
+      <h3 class="w3-wide">CAN YOU COME?</h3>
+      <p>We really hope you can make it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, Fcamp</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</body>
+
+<br>
+<br><br><br>
+<br>
+
+</html>
